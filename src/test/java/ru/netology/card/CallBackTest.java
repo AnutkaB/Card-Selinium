@@ -13,8 +13,7 @@ public class CallBackTest {
     private WebDriver driver;
 
     @BeforeAll
-    static void setUpAll() {
-        WebDriverManager.chromedriver().setup();
+    static void setUpAll() { WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
